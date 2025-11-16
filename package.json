@@ -2,16 +2,20 @@
   "name": "qzly",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://anuj-nautiyal.github.io/Qzly",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tabler/icons-react": "^3.35.0",
     "framer-motion": "^12.23.24",
+    "gh-pages": "^6.3.0",
     "motion": "^12.23.24",
     "react": "^19.1.1",
     "react-confetti": "^6.4.0",
