@@ -1,0 +1,67 @@
+.question-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.question-text {
+    font-size: 1.25rem;
+    /* 20px */
+    font-weight: 500;
+    color: #333;
+    /* Not pure black */
+    margin-top: 8px;
+}
+
+.answer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.answer-section button {
+    border-radius: 20px;
+    font-size: 16px;
+    border: 1px solid #eee;
+    background-color: #f8f8f8;
+    padding: 12px 25px;
+    cursor: pointer;
+}
+
+.answer-section:not(.disabled) button:hover {
+    background-image: url('../assets/lightpurp.png');
+    background-repeat: repeat;
+    transform: translateY(-2px);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.answer-section.disabled button {
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+.answer-section.disabled button.correct-answer,
+.answer-section.disabled button.incorrect-answer {
+    cursor: default;
+}
+
+.answer-section button.correct-answer {
+    border: 2px solid #0d700d;
+    background-color: #45af45;
+    color: white;
+    font-weight: 600;
+}
+
+.answer-section button.incorrect-answer {
+    border: 2px solid #eb0d0d;
+    background-color: #d34545;
+    color: white;
+    font-weight: 600;
+}
+
+.answer-section.disabled button.correct-answer:hover,
+.answer-section.disabled button.incorrect-answer:hover {
+    filter: brightness(1.1);
+}
