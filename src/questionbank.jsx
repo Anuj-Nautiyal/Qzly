@@ -1,11 +1,11 @@
 export const questions = [
   {
-    questionText: 'Why katappa killed Bahubali?',
+    questionText: 'What was the shortest war in recorded history, lasting less than 45 minutes?',
     answerOptions: [
-      { option: 'Bahubali harassed him', isCorrect: false },
-      { option: 'Shivgami Devi\'s order', isCorrect: true },
-      { option: 'Bahubali kept asking him his haircare routine', isCorrect: false },
-      { option: 'Bahubali declared war againt ProudRandi sena', isCorrect: false },
+      { option: 'The Six-Day War', isCorrect: false },
+      { option: 'The Anglo-Zanzibar War', isCorrect: true },
+      { option: 'The War of 1812', isCorrect: false },
+      { option: 'The Falklands War', isCorrect: false },
     ],
   },
   {
@@ -27,12 +27,21 @@ export const questions = [
     ],
   },
   {
-    questionText: 'The creator of this game "Mr. Anuj" is a ?',
+    questionText: 'How many tung\'s are there in Sahur\'s name?',
     answerOptions: [
-      { option: 'Boss Ni**a', isCorrect: false },
-      { option: 'Fuckin Genius', isCorrect: true },
-      { option: 'God', isCorrect: false },
-      { option: 'Daddy', isCorrect: false },
+      { option: '7', isCorrect: false },
+      { option: '5', isCorrect: false },
+      { option: '9', isCorrect: true },
+      { option: '6', isCorrect: false },
+    ]
+  },
+  {
+    questionText: 'Which is the only part of the human body that cannot heal or repair itself?',
+    answerOptions: [
+      { option: 'Fingernails', isCorrect: false },
+      { option: 'Teeth', isCorrect: true },
+      { option: 'Cartilage', isCorrect: false },
+      { option: 'Hair', isCorrect: false },
     ]
   },
   {
@@ -54,21 +63,12 @@ export const questions = [
     ]
   },
   {
-    questionText: 'Who is the OG ProudRandi?',
+    questionText: 'What is the term for a group of crows?',
     answerOptions: [
-      { option: 'Apoorva', isCorrect: false },
-      { option: 'Mia khalifa', isCorrect: false },
-      { option: 'Sunny Leone', isCorrect: false },
-      { option: 'AwkwardGoat', isCorrect: true },
-    ]
-  },
-  {
-    questionText: 'How many tung\'s are there in Sahur\'s name?',
-    answerOptions: [
-      { option: '7', isCorrect: false },
-      { option: '5', isCorrect: false },
-      { option: '9', isCorrect: true },
-      { option: '6', isCorrect: false },
+      { option: 'A gaggle', isCorrect: false },
+      { option: 'A flock', isCorrect: false },
+      { option: 'A parliament', isCorrect: false },
+      { option: 'A murder', isCorrect: true },
     ]
   },
   {
